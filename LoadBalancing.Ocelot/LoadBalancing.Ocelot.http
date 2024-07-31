@@ -1,0 +1,6 @@
+@LoadBalancing.Ocelot_HostAddress = http://localhost:5253
+
+GET {{LoadBalancing.Ocelot_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
